@@ -3,6 +3,10 @@
 > A simple full-stack dapp that writes messages to the Ethereum blockchain. You will learn the whole process of developing a decentralized application.
 
 <div align="center">
+  Website: https://message-dapp.on.fleek.co/
+</div>
+
+<div align="center">
   <img src="https://github.com/akhileshthite/msg-dapp/blob/main/demo.gif" />
 </div>
 
