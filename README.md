@@ -18,7 +18,13 @@ $ npm install -g truffle
 ### React client
 
 ```sh
+# cd into client directory
 $ cd client
+
+# Install dependencies
+$ npm install
+
+# Start the app
 $ npm start
   Starting the development server...
 ```
