@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css","webpack://src/App.css"],"names":[],"mappings":"AAAA,cAAc,CACd,oBAAoB,CACpB,mBAAmB,CCFnB,UACE,UAAW,CACX,WACF","file":"main.e81bb8c1.chunk.css","sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;","html, body {\n  width: 100%;\n  height: 100%;\n}\n"]}
