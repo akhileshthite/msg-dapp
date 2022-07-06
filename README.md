@@ -2,6 +2,8 @@
 
 > A simple full-stack dapp that writes messages to the Ethereum blockchain. You will learn the whole process of developing a decentralized application.
 
+<img align="center" src="https://github.com/akhileshthite/msg-dapp/blob/main/demo.gif"></img>
+
 ## Contract
   https://rinkeby.etherscan.io/address/0x285594f491fDb7a204EBBB26bC095e69F4BA6914
 
