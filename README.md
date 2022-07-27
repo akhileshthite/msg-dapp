@@ -23,7 +23,7 @@ Make sure you have truffle installed on your computer.
 npm install -g truffle
 ```
 
-Ensure you create an `.env` file in `./truffle/` directory. Then to access the Ethereum network/node, create a project on [infura](https://infura.io/) and copy-paste the `infura project-id url` in `.env` with a variable name `INFURA_MATIC_TESTNET` or `INFURA_RINKEBY` (contracts of this dapp is deployed to rinkeby testnet).
+Ensure you create an `.env` file in `./truffle/` directory. Then to access the Ethereum network/node, create a project on [infura](https://infura.io/) and copy-paste the `infura project-id url` in `.env` with a variable name or `INFURA_RINKEBY` (contracts of this dapp is deployed to rinkeby testnet).
 ```sh
 INFURA_RINKEBY=https://rinkeby.infura.io/v3/YOUR_PROJECT_ID
 ```
@@ -52,8 +52,7 @@ truffle migrate --network rinkeby
 # --reset: Run all migrations from the beginning, instead of running from the last completed migration.
 
 ```
-This will generate [ABI](https://docs.soliditylang.org/en/v0.8.13/abi-spec.html#:~:text=The%20Contract%20Application%20Binary%20Interface,as%20described%20in%20this%20specification.) in `./client/contracts/`
-For more information, read [truffle docs](https://trufflesuite.com/docs/truffle/).
+This will generate [ABI](https://docs.soliditylang.org/en/v0.8.13/abi-spec.html#:~:text=The%20Contract%20Application%20Binary%20Interface,as%20described%20in%20this%20specification.) in `./client/contracts/`. For more information, read [truffle docs](https://trufflesuite.com/docs/truffle/).
 
 ### React client
 Start react app.
