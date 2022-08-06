@@ -22,6 +22,10 @@ Make sure you have truffle installed on your computer.
 # Install Truffle globally
 npm install -g truffle
 ```
+```sh
+# Install truffle dependencies in root directory (./msg-dapp)
+npm install
+```
 
 Ensure you create an `.env` file in `./truffle/` directory. Then to access the Ethereum network/node, create a project on [infura](https://infura.io/) and copy-paste the `infura project-id url` in `.env` with a variable name or `INFURA_RINKEBY` (contracts of this dapp is deployed to rinkeby testnet).
 ```sh
